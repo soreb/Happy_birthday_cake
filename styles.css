@@ -1,0 +1,65 @@
+body
+{
+    background-color: #5555FF;
+    display: flex;
+}
+
+#contain
+{
+    width: 100%;
+    display: block;
+}
+
+header
+{
+    display: block;
+    background-color: red;
+}
+
+#myCake
+{
+    width: 60%;
+    height: 400px;
+    background-image: url(ressources/empty.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.object
+{
+    margin-top: 50px;
+    width: 25%;
+    align-items: center;
+}
+
+.object > div, button
+{
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.object > div
+{
+    width: 50%;
+    height: 20px;
+    background-color: orange;
+}
+
+.object > button
+{
+    width: 5%;
+    height: 20px;
+    background-color: green;
+}
+
+.align
+{
+    flex-direction: row;
+    float: left;
+}
+
+#play
+{
+    display: block;
+    clear: both;
+}
